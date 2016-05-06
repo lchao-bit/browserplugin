@@ -123,7 +123,6 @@ function push(options) {
 		var fullToPath = path.resolve(to, file);
 		if (process.platform == 'win32'){
 			fullToPath = fullToPath.replace(/\\/g,'/').slice(2);
-			console.error("already fullpath!!")
 		}
         var stats = fs.statSync(fullFromPath);
         var isDirectory = stats.isDirectory();
