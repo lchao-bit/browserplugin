@@ -1,0 +1,27 @@
+{
+  "name": "jpm-mobile",
+  "version": "0.0.5",
+  "description": "Uses JPM with ADB in order to run Jetpacks on an Android device.",
+  "main": "index.js",
+  "author": "Erik Vold",
+  "license": "MPL-2.0",
+  "bin": {
+    "jpm-mobile": "./bin/jpm-mobile"
+  },
+  "homepage": "https://github.com/erikvold/jpm-mobile",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erikvold/jpm-mobile.git"
+  },
+  "bugs": {
+    "url": "http://github.com/erikvold/jpm-mobile/issues"
+  },
+  "dependencies": {
+    "bluebird": "2.9.24",
+    "commander": "2.6.0",
+    "dive": "0.4.0",
+    "fs-extra": "0.16.4",
+    "jetpack-id": "0.0.4",
+    "jpm": "1.0.0"
+  }
+}
